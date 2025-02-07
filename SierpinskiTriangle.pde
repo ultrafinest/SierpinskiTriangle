@@ -2,9 +2,9 @@ public void setup()
 {
   size(300,300);
 }
-public void mouseDragged()//optional
+public void draw()
 {
-  sierpinski(0, 299, 100);
+   sierpinski(0, 299, 100);
 }
 public void sierpinski(int x, int y, int len) 
 {
