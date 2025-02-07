@@ -5,6 +5,11 @@ public void setup()
 public void draw()
 {
    sierpinski(0, 299, 100);
+   sierpinski(50, 200, 100);
+   sierpinski(100, 299, 100);
+   sierpinski(150, 200, 100);
+   sierpinski(200, 299, 100);
+   sierpinski(100, 100, 100);
 }
 public void sierpinski(int x, int y, int len) 
 {
